@@ -29,25 +29,29 @@ function init(resultFromServer) {
       // console.log(resultFromServer);
       switch (resultFromServer.weather[0].main) {
         case 'Clear':
-
+          document.body.style.backgroundImage = 'url("clear.jpg")';
           break;
 
           case 'Clouds':
+            document.body.style.backgroundImage = 'url("cloudy.jpg")';
           break;
 
 
           case 'Rain':
           case 'Drizzle':
           case 'Mist':
+            document.body.style.backgroundImage = 'url("rain.jpg")';
            break;
 
         case 'Thunderstorm':
+          document.body.style.backgroundImage = 'url("storm.jpg")';
           break;
 
           case 'Snow':
+            document.body.style.backgroundImage = 'url("snow.jpg")';
           break;
 
-          
+
         default:
           break;
 
