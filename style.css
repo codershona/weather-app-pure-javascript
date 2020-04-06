@@ -23,3 +23,46 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
+
+
+#searchContainer {
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+#searchContainer input {
+  width: 202px;
+}
+
+#searchContainer button {
+  background-color: rgba(196, 232, 73, 1);
+  width: 79px;
+
+}
+
+.searchControl {
+  box-shadow: 3px 3px 6px black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+#weatherMain {
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+#weatherMain div {
+  display: inline-block;
+}
+
+#weatherDescriptionHeader {
+  font-size: 30px;
+  vertical-align: 50%;
+  
+}
