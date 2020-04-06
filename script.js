@@ -56,6 +56,21 @@ function init(resultFromServer) {
           break;
 
       }
+
+      let weatherDescriptionHeader = document.getElementById('weatherDescriptionHeader');
+      let temparatureElement = document.getElementById('temparature');
+      let humidityElement = document.getElementById('humidity');
+      let windSpeedElement = document.getElementById('windSpeed');
+      let cityHeader = document.getElementById('cityHeader');
+      let weatherIcon = document.getElementById('documentIconImg');
+
+
+      weatherIcon.src = ' http://openweathermap.org/img/wn/' + resultFromServer.weather[0].icon + '.png';
+
+      let resultDescription = resultFromServer.weather[0].description;
+      weatherDescriptionHeader.innerText = resultDescription;
+      
+
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
