@@ -64,5 +64,22 @@ body {
 #weatherDescriptionHeader {
   font-size: 30px;
   vertical-align: 50%;
+}
+
+#temparature {
+  font-size: 41px;
+  vertical-align: 25%;
+
+}
+
+.bottom-details {
+  display: block;
+  font-size: 25px;
+  text-align: right;
+
+}
+
+hr {
+  margin-bottom: 21px;
   
 }
